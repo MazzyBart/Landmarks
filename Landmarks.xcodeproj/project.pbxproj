@@ -11,6 +11,8 @@
 		FC9569792688F90D005A2B39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9569782688F90D005A2B39 /* ContentView.swift */; };
 		FC95697B2688F90E005A2B39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95697A2688F90E005A2B39 /* Assets.xcassets */; };
 		FC95697E2688F90E005A2B39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95697D2688F90E005A2B39 /* Preview Assets.xcassets */; };
+		FC95698C268917A1005A2B39 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95698B268917A1005A2B39 /* CircleImage.swift */; };
+		FC95698E268917EA005A2B39 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95698D268917EA005A2B39 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FC95697A2688F90E005A2B39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC95697D2688F90E005A2B39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC95697F2688F90E005A2B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC95698B268917A1005A2B39 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FC95698D268917EA005A2B39 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		FC9569752688F90D005A2B39 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				FC95698A2689178C005A2B39 /* Views */,
 				FC9569762688F90D005A2B39 /* LandmarksApp.swift */,
 				FC9569782688F90D005A2B39 /* ContentView.swift */,
 				FC95697A2688F90E005A2B39 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				FC95697D2688F90E005A2B39 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC95698A2689178C005A2B39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC95698B268917A1005A2B39 /* CircleImage.swift */,
+				FC95698D268917EA005A2B39 /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC9569792688F90D005A2B39 /* ContentView.swift in Sources */,
+				FC95698E268917EA005A2B39 /* MapView.swift in Sources */,
 				FC9569772688F90D005A2B39 /* LandmarksApp.swift in Sources */,
+				FC95698C268917A1005A2B39 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
